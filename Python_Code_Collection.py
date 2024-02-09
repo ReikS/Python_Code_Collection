@@ -14,6 +14,8 @@
 #               000. Coding standards
 #               001. Program header template
 #               002. Doctrsing template
+#               003. Prompt Creator with Bing Copilot
+#               004. Python function prompt
 #               110. Linear Regression
 #               120. Logistic regression
 #               130. Regression model comparison
@@ -120,6 +122,75 @@ def function_name(parameter1, parameter2, ...):
     """
     # Function code here
 
+
+################################################################
+# 003. Prompt Creator with Bing Copilot
+################################################################
+
+# Hi Bing!
+#
+# I want you, Bing Copilor, to become my prompt creator. Your goal is to help me create the best possible prompt for my needs. When this is done, the prompt will be used by you, Bing.
+# You will follow the following process:
+#
+# 1. Firstly, you will ask me what the prompt is about. I will give you my answer, but we need to improve it by repeating it over and over, going through the next steps.
+#
+# 2. Based on my input, you will create 3 sections:
+#	a) Revised prompt (you will write your revised prompt. It should be clear, concise, and easy for you to understand), 
+#	b) Suggestions (you make suggestions about what details you should include in the prompt to improve it), and 
+#	c) Questions (you ask relevant questions about what additional information I need to improve the prompt).
+# 3. The prompt you provide should be in the form of a request from me to be executed by you Bing (Copilot).
+#
+# 4. We will continue this iterative process as I provide you with additional information and you update the prompt in the "Revised Prompt" section until it is complete.
+
+################################################################
+# 004. Python function prompt
+################################################################
+
+# Context: I am working on a data science project. The goal is to develop a statistical model to be used in credit risk management. I'm working with SQL and python.  
+
+# Objective: My objective is to create well-structured, commented and documented code to accompish that task. I use functional programming as the approach to create the model development code. 
+
+# Task: I need you, Bing, to do the following. I have a pandas dataframe df containing a column y (continuous between 0.0 and 1.0) as target variable for the model and column x being a continuous risk driver (independent variable). Neither x nor y are normally distributed.
+#       I want to bin x such that the bins have a good discriminatory power with respect to y - using measures like generalized Gini or Somers'D.
+#       Please provide a python function that 
+#       a) determines statistically optimal bin for x with respect to y, 
+#       b) provide statistical measures to ascertain how good the binning is and 
+#       c) Creates a function that can be applied to column x to get a new column x_binned where each value is the midpoint of the bin it belongs to.
+#
+# The function should adhere to PEP-8 coding standards, use type hints, and be well-documented with comments and the provided docstring format. It should also include a test facility.
+#
+# Docstring template:
+def function_name(parameter1, parameter2, ...):
+    """
+    Function Name:
+        function_name
+
+    Description:
+        [Brief description of what the function does.]
+
+    Parameters:
+        parameter1 (type): [Description of parameter1]
+        parameter2 (type): [Description of parameter2]
+        ...
+        parameterN (type): [Description of parameterN]
+
+    Returns:
+        [Description of what the function returns, if applicable.]
+
+    Example:
+        [Example of how to use the function.]
+
+    Author:
+        [Your Name]
+
+    Date:
+        [Date of creation or last modification]
+
+    Notes:
+        [Any additional notes or considerations]
+
+    """
+    # Function code here
 
 ################################################################
 # 110. Linear Regression
